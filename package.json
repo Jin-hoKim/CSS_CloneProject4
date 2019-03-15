@@ -1,20 +1,20 @@
 {
-    "name": "CSS_CloneProject4",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "parcel index.html"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Jin-hoKim/CSS_CloneProject4.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Jin-hoKim/CSS_CloneProject4/issues"
-    },
-    "homepage": "https://github.com/Jin-hoKim/CSS_CloneProject4#readme"
+  "name": "CSS_CloneProject4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jin-hoKim/CSS_CloneProject4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jin-hoKim/CSS_CloneProject4/issues"
+  },
+  "homepage": "https://github.com/Jin-hoKim/CSS_CloneProject4#readme"
 }

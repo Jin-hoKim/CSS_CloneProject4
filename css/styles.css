@@ -1,3 +1,9 @@
+:root {
+    --padding: 25px;
+    --margin: 0px;
+}
+
 body {
+    margin: var(--margin);
     font-family: 'Overpass', sans-serif;
 }

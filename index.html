@@ -7,12 +7,96 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS_CloneProject4</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>hello there??</h1>
-    <h2>hi!!</h2>
+    <header class="header">
+        <div class="header__title">
+            <span class="header__title">
+                Good morning
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon"> 
+                <i class="far fa-user"></i>
+            </span>
+        </div>
+        <span class="header__subtitle">
+            what are you doing today?
+        </span>
+    </header>
+
+    <section class="main">
+        <div class="item">
+            <div class="item__bg">
+                <img src="" alt="" class="img-bg">
+                <span class="button-like">
+                    <i class="fas fa-heart"></i>
+                </span>
+            </div>
+            <div class="item__info">
+                <span class="info__title">
+                    Oatmeal cookie
+                </span>
+                <span class="info__subtitle">
+                    Very good!
+                </span>
+                <ul class="info__social">
+                    <li class="social__item social-starpoint">
+                        <h5 class="far fa-star"></h5>
+                        <h6 class="social__point">
+                            1.2M
+                        </h6>
+                    </li>
+                    <li class="social__item social-comments">
+                        <h5 class="far fa-comments"></h5>
+                        <h6 class="social__point">
+                            1M
+                        </h6>
+                    </li>
+                    <li class="social__item social-thumbsup">
+                        <h5 class="far fa-thumbs-up"></h5>
+                        <h6 class="social__point">
+                            5M
+                        </h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="recommended">
+        <div class="recommended__header">
+            <span class="recommended__title">
+                Recommended
+            </span>
+            <span class="recommended__seeall">
+                See all
+            </span>
+        </div>
+        <ul class="recommended_list">
+            <li class="item">
+                <div class="item__bg">
+                    <img src="" alt="" class="img-bg">
+                    <span class="button-like">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                </div>
+                <div class="item__info">
+                    <h5 class="info__title">
+                        Pomegranate Juice
+                    </h5>
+                    <h6 class="info__subtitle">
+                        Something.. blablablabla...
+                    </h6>
+                </div>
+            </li>
+        </ul>
+    </section>
 </body>
 
 </html>
