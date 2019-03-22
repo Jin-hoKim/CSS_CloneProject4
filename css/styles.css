@@ -55,7 +55,7 @@ body {
 }
 
 .recipe {
-    height: 40xpx;
+    height: 400px;
     border-radius: var(--borderRadius);
     background-image: url("https://i.pinimg.com/564x/ae/c7/e2/aec7e2860fa4b5438826abd82830825d.jpg");
     background-size: 100%;
