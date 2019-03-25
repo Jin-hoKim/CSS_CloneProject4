@@ -13,85 +13,123 @@
 </head>
 
 <body>
+
     <header class="header">
-        <h2 class="header__item title">
-            Good morning
-        </h2>
-        <span class="header__item icon">
-            <i class="fas fa-search"></i>
-        </span>
-        <span class="header__item icon"> 
-            <i class="far fa-user"></i>
-        </span>
-        <h6 class="header__item subtitle">
-            what are you doing today?
-        </h6>
+        <hgroup class="header__titles">
+            <h1 class="header__title">
+                Good morning
+            </h1>
+            <h4 class="header__subtitle">
+                What are you eating today?
+            </h4>
+        </hgroup>
+        <div class="header__icons">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="far fa-user"></i>
+            </span>
+        </div>
     </header>
 
-    <section class="main">
-        <div class="item">
-            <span class="button-like">
-                <i class="fas fa-heart"></i>
-            </span>
-            <div class="item__info">
-                <span class="info__title">
+    <main class="main">
+        <div class="recipe">
+            <div id="btnLike" class="recipe__heart">
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="recipe__info">
+                <h4 class="recipe__title">
                     Oatmeal cookie
+                </h4>
+                <div class="recipe__meta">
+                    <span class="recipe__meta-data">
+                    Vegan
                 </span>
-                <span class="info__subtitle">
-                    Very good!
+                    <span class="recipe__meta-data">
+                    10 mins
                 </span>
-                <ul class="info__social">
-                    <li class="social__item social-starpoint">
-                        <h5 class="far fa-star"></h5>
-                        <h6 class="social__point">
-                            1.2M
-                        </h6>
-                    </li>
-                    <li class="social__item social-comments">
-                        <h5 class="far fa-comments"></h5>
-                        <h6 class="social__point">
-                            1M
-                        </h6>
-                    </li>
-                    <li class="social__item social-thumbsup">
-                        <h5 class="far fa-thumbs-up"></h5>
-                        <h6 class="social__point">
-                            5M
-                        </h6>
-                    </li>
-                </ul>
+                    <span class="recipe__meta-data">
+                    3 peoples
+                </span>
+                </div>
+                <div class="recipe__social">
+                    <span class="recipe__social-item">
+                        <i class="far fa-star"></i>
+                        <span class="recipe__social-count">
+                            2.5M
+                        </span>
+                    </span>
+                    <span class="recipe__social-item">
+                        <i class="far fa-comments"></i>
+                        <span class="recipe__social-count">
+                            1.0M
+                        </span>
+                    </span>
+                    <span class="recipe__social-item">
+                        <i class="far fa-thumbs-up"></i>
+                        <span class="recipe__social-count">
+                            4900
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="recommended">
+        <header class="recommended__header">
+            <h4 class="recommended__title">
+                Recommended
+            </h4>
+            <small class="recommended__small">
+                See all
+            </small>
+        </header>
+        <div class="recommended__grid">
+            <div class="recommended-recipe">
+                <div class="recommended-recipe__info">
+                    <h5 class="recommended-recipe__title">
+                        Pomegranate Juice
+                    </h5>
+                    <h6 class="recommended-recipe__subtitle">
+                        Something..
+                    </h6>
+                </div>
+            </div>
+            <div class="recommended-recipe">
+                <div class="recommended-recipe__info">
+                    <h5 class="recommended-recipe__title">
+                        Pomegranate Juice
+                    </h5>
+                    <h6 class="recommended-recipe__subtitle">
+                        Something..
+                    </h6>
+                </div>
+            </div>
+            <div class="recommended-recipe">
+                <div class="recommended-recipe__info">
+                    <h5 class="recommended-recipe__title">
+                        Pomegranate Juice
+                    </h5>
+                    <h6 class="recommended-recipe__subtitle">
+                        Something..
+                    </h6>
+                </div>
+            </div>
+            <div class="recommended-recipe">
+                <div class="recommended-recipe__info">
+                    <h5 class="recommended-recipe__title">
+                        Pomegranate Juice
+                    </h5>
+                    <h6 class="recommended-recipe__subtitle">
+                        Something..
+                    </h6>
+                </div>
             </div>
         </div>
     </section>
-
-    <section class="recommended">
-        <div class="recommended__header">
-            <span class="recommended__title">
-                Recommended
-            </span>
-            <span class="recommended__seeall">
-                See all
-            </span>
-        </div>
-        <ul class="recommended_list">
-            <li class="item">
-                <div class="item__bg">
-                    <img src="" alt="" class="img-bg">
-                    <span class="button-like">
-                        <i class="fas fa-heart"></i>
-                    </span>
-                </div>
-                <div class="item__info">
-                    <h5 class="info__title">
-                        Pomegranate Juice
-                    </h5>
-                    <h6 class="info__subtitle">
-                        Something.. blablablabla...
-                    </h6>
-                </div>
-            </li>
-        </ul>
-    </section>
+    <script src="./index.js"></script>
 </body>
 
 </html>
